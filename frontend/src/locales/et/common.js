@@ -68,6 +68,7 @@ const TRANSLATIONS = {
     optional: "Valikuline",
     yes: "Jah",
     no: "Ei",
+    search: null,
   },
   settings: {
     title: "Instantsi seaded",
@@ -572,8 +573,6 @@ const TRANSLATIONS = {
       "Embedding muudab teksti vektoriteks. Need võtmed on vajalikud, et AnythingLLM saaks sinu failid ja päringud töödelda.",
     provider: {
       title: "Embedding-i pakkuja",
-      description:
-        "AnythingLLM-i sisseehitatud embedding-mootor ei vaja seadistust.",
     },
   },
   text: {
@@ -581,9 +580,6 @@ const TRANSLATIONS = {
     "desc-start":
       "Vahel soovid muuta, kuidas uued dokumendid enne vektoriandmebaasi lisamist tükeldatakse.",
     "desc-end": "Muuda seda ainult siis, kui mõistad tekstilõike mõju.",
-    "warn-start": "Muudatused kehtivad ainult",
-    "warn-center": "uutele dokumentidele",
-    "warn-end": ", mitte olemasolevatele.",
     size: {
       title: "Tekstitüki suurus",
       description: "Maksimaalne märgipikkus ühes vektoris.",
@@ -925,7 +921,7 @@ const TRANSLATIONS = {
     username_description:
       "Kasutajanimi võib sisaldada ainult väiketähti, numbreid, alakriipse ja sidekriipse, ilma tühikuteta",
     new_password: "Uus parool",
-    passwort_description: "Parool peab olema vähemalt 8 märki",
+    password_description: "Parool peab olema vähemalt 8 märki",
     cancel: "Tühista",
     update_account: "Uuenda kontot",
     theme: "Teema eelistus",
